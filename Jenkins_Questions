@@ -1,0 +1,91 @@
+1. Which tool have you used for Implement CI/CD? 
+      Jenkins
+2.  Any Alternate tool do you know for CI/CD?
+     Bamboo, UDeploy, Team city, TFS
+3.  What is Continuous Integration?
+Get the Source code from Central repository and Compile the code, Test the code and build      the code   push to artifactory tools.
+
+4. What are the jobs that u configured in Jenkins?
+     1. Freestyle 2. Pipeline 3.Multiconfiguration
+
+5. What are the types of jobs available in Jenkins?
+     a. Freestyle b. Maven c. Pipeline d. Multibranch Pipeline e. build flow
+6. Difference between freestyle and Pipeline job?
+   Freestyle Job: All are User based it takes more execution time, everything is executed in the             agent, only master node.
+   Pipeline Job: Less Execution time any where we can execute.
+7. What is Jenkins Pipeline?
+Declare the job as a code and execution flow as a code and execute the no of jobs through pipeline
+8.  What is Declarative pipeline?
+Declarative Pipeline is new type, in this we can declare no of stages under one node single   agent.
+9. Difference between declarative and Script based pipeline?
+In Declarative pipeline no of stages under single node. While Script based pipeline each stage have each node.
+10. What is Pipeline Syntax?
+      Declarative or Script based
+11. Master Slave architecture what is the use?
+      If we want to save the Jenkins space we should go for Slave 
+12.  How many ways to connect Slave nodes?
+a. Webstart b. SSH agent c. Execution of command on the master d. Lets Jenkins Control this         windows slave as a windows service
+13.  How many ways you have provide security for your Jenkins servers?
+       a. Ldap Based Security b. Matrix based Security
+14. What is SonarQube Have you configured? How you Configure?
+      Sonar Cube: Static Code Analysis, Yes I Configured using Sonar-Project. Properties   Language. which folder wants to monitor and passed the quality gates, if quality gates failure build also failure
+15. What type of Artifact repo tools have you used?
+      Nexus: Backup of the old Previous Successful build job.
+      Pro:  Commercial
+16. What is the use of artifact tools?
+      For taking backup of successful builds, share the Libraries to the teams.
+17. How do you declare variables in pipeline?
+      Simple we can declare the variables and assign the values.
+18.  What is DSL Language?
+       Domain specific language using Groovy language, pipeline syntax is the DSL language.
+19. If you have 10 Repositories in github, how many jobs you can configure?
+      10 Jobs we can create.
+20. Do you have experience in installing the Jenkins?
+      Yes.
+21. How you Configure jdk maven, gradle etc?
+     Under Configuration tab home of all softwares.
+22. In my environment I have different versions for java implementations projects is there?    
+       Can you configure multiple JDKs?
+        
+         Go to configure section, manage jenkins-Global tool configuration
+
+23.  What are the plugins you have used in your project?
+       
+        Nexus Artifactory, Nexus Uploader, Build plugin, mavenplugin, Pipeline plugin.
+
+24. How to take backup of my Jenkins?
+   
+      Thin backup plugin
+
+25. What is Jenkins home directory?
+
+      .Jenkins
+
+26.  How to delete old builds automatically?
+
+Go to Job configure, Select the discard old builds and keep the entries with our    requirements, no  of days to keep builds, maximum no of builds to keep.
+        
+27. How to configure multiple environment deployment?
+      
+      Build with parametised
+
+
+
+
+       
+       
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
